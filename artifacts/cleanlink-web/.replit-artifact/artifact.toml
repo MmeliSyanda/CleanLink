@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "CleanLink Website"
+version = "1.0.0"
+id = "artifacts/cleanlink-web"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22155
+
+[services.development]
+run = "pnpm --filter @workspace/cleanlink-web run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cleanlink-web", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cleanlink-web/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22155"
+BASE_PATH = "/"
