@@ -18,7 +18,7 @@ export default function ForCleaners() {
       <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }} />
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <div className="bg-white/5 border border-white/10 rounded-[3rem] p-8 md:p-16 backdrop-blur-sm grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="bg-white/10 border border-white/20 rounded-[3rem] p-8 md:p-16 backdrop-blur-2xl shadow-[0_8px_64px_rgba(0,0,0,0.3)] grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           <motion.div 
             initial={{ opacity: 0, y: 20 }}

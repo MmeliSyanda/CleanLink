@@ -42,22 +42,29 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 group hover:shadow-md transition-shadow"
+              className="rounded-3xl overflow-hidden shadow-lg group hover:shadow-2xl transition-shadow duration-500 relative"
             >
-              <div className="h-64 overflow-hidden relative">
-                <div className="absolute inset-0 bg-secondary/10 group-hover:bg-transparent transition-colors z-10" />
+              {/* Full-bleed image */}
+              <div className="relative h-72 overflow-hidden">
                 <img 
                   src={service.image} 
                   alt={service.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-b from-secondary/20 via-secondary/30 to-secondary/80" />
+                {/* Title on image */}
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <h3 className="text-2xl font-bold font-serif text-white">{service.title}</h3>
+                </div>
               </div>
-              <div className="p-8 md:p-10">
-                <h3 className="text-2xl font-bold font-serif text-secondary mb-4">{service.title}</h3>
-                <p className="text-muted-foreground mb-8 line-clamp-3">
+
+              {/* Glass content panel */}
+              <div className="bg-white/80 backdrop-blur-xl border-t border-white/60 p-8 md:p-10">
+                <p className="text-muted-foreground mb-6 leading-relaxed">
                   {service.description}
                 </p>
-                <ul className="space-y-3 mb-8">
+                <ul className="space-y-3">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-3 text-secondary font-medium">
                       <CheckCircle2 className="text-primary shrink-0 mt-0.5" size={20} />

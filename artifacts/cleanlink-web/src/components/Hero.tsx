@@ -75,14 +75,14 @@ export default function Hero() {
               className="w-full h-full object-cover"
             />
             
-            {/* Floating Trust Badge */}
+            {/* Floating Trust Badge — glassmorphism */}
             <motion.div 
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.8 }}
-              className="absolute bottom-6 -left-6 md:left-6 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-4 max-w-[220px]"
+              className="absolute bottom-6 -left-6 md:left-6 bg-white/30 backdrop-blur-xl border border-white/50 p-4 rounded-2xl shadow-[0_8px_32px_rgba(27,54,112,0.15)] flex items-center gap-4 max-w-[220px]"
             >
-              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary shrink-0">
+              <div className="w-12 h-12 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center text-primary shrink-0 border border-primary/20">
                 <ShieldCheck size={24} />
               </div>
               <div>

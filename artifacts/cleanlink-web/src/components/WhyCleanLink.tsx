@@ -17,15 +17,16 @@ export default function WhyCleanLink() {
             className="order-2 lg:order-1 relative"
           >
             <div className="relative w-full max-w-md mx-auto">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[120%] bg-primary/10 rounded-full blur-3xl -z-10" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[120%] bg-primary/15 rounded-full blur-3xl -z-10" />
               <img 
                 src={mockupImg} 
                 alt="CleanLink App Mockup" 
-                className="w-full h-auto rounded-[2rem] shadow-2xl border-8 border-white"
+                className="w-full h-auto rounded-[2rem] shadow-2xl border-8 border-white/60"
               />
               
-              <div className="absolute top-10 -right-8 bg-white p-4 rounded-xl shadow-lg border border-gray-50 flex items-center gap-3">
-                <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+              {/* Glass floating rating badge */}
+              <div className="absolute top-10 -right-8 bg-white/30 backdrop-blur-xl border border-white/50 p-4 rounded-xl shadow-[0_8px_32px_rgba(27,54,112,0.15)] flex items-center gap-3">
+                <div className="w-10 h-10 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center text-primary border border-primary/20">
                   <Star size={20} fill="currentColor" />
                 </div>
                 <div>
@@ -51,8 +52,8 @@ export default function WhyCleanLink() {
             </p>
 
             <div className="space-y-8">
-              <div className="flex gap-4">
-                <div className="w-12 h-12 bg-secondary/5 rounded-xl flex items-center justify-center text-secondary shrink-0">
+              <div className="flex gap-4 p-5 rounded-2xl bg-white/60 backdrop-blur-md border border-white/80 shadow-[0_4px_24px_rgba(27,54,112,0.07)] hover:shadow-[0_8px_32px_rgba(27,54,112,0.12)] transition-shadow duration-300">
+                <div className="w-12 h-12 bg-secondary/10 backdrop-blur-sm rounded-xl flex items-center justify-center text-secondary shrink-0 border border-secondary/10">
                   <ShieldCheck size={24} />
                 </div>
                 <div>
@@ -61,8 +62,8 @@ export default function WhyCleanLink() {
                 </div>
               </div>
 
-              <div className="flex gap-4">
-                <div className="w-12 h-12 bg-secondary/5 rounded-xl flex items-center justify-center text-secondary shrink-0">
+              <div className="flex gap-4 p-5 rounded-2xl bg-white/60 backdrop-blur-md border border-white/80 shadow-[0_4px_24px_rgba(27,54,112,0.07)] hover:shadow-[0_8px_32px_rgba(27,54,112,0.12)] transition-shadow duration-300">
+                <div className="w-12 h-12 bg-secondary/10 backdrop-blur-sm rounded-xl flex items-center justify-center text-secondary shrink-0 border border-secondary/10">
                   <MapPin size={24} />
                 </div>
                 <div>
@@ -71,8 +72,8 @@ export default function WhyCleanLink() {
                 </div>
               </div>
 
-              <div className="flex gap-4">
-                <div className="w-12 h-12 bg-secondary/5 rounded-xl flex items-center justify-center text-secondary shrink-0">
+              <div className="flex gap-4 p-5 rounded-2xl bg-white/60 backdrop-blur-md border border-white/80 shadow-[0_4px_24px_rgba(27,54,112,0.07)] hover:shadow-[0_8px_32px_rgba(27,54,112,0.12)] transition-shadow duration-300">
+                <div className="w-12 h-12 bg-secondary/10 backdrop-blur-sm rounded-xl flex items-center justify-center text-secondary shrink-0 border border-secondary/10">
                   <Wallet size={24} />
                 </div>
                 <div>
