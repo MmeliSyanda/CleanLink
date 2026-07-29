@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import logoImg from '@assets/WhatsApp_Image_2026-07-28_at_13.43.09_1785239013382.jpeg';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'wouter';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +21,7 @@ export default function Navbar() {
           <a href="#services" className="hover:text-primary transition-colors">Services</a>
           <a href="#trust" className="hover:text-primary transition-colors">Trust & Safety</a>
           <a href="#for-cleaners" className="hover:text-primary transition-colors">For Cleaners</a>
+          <Link href="/prototype" className="hover:text-primary transition-colors">View Prototype</Link>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
@@ -45,6 +47,7 @@ export default function Navbar() {
           <a href="#services" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>Services</a>
           <a href="#trust" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>Trust & Safety</a>
           <a href="#for-cleaners" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>For Cleaners</a>
+          <Link href="/prototype" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>View Prototype</Link>
           <div className="h-px bg-gray-100 my-2" />
           <Button variant="outline" className="w-full font-semibold border-secondary text-secondary">Log In</Button>
           <Button className="w-full bg-primary text-primary-foreground font-semibold">Book a Cleaner</Button>
