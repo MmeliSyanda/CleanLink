@@ -1,0 +1,14 @@
+[build]
+  command   = "pnpm --filter @workspace/cleanlink-web run build"
+  publish   = "artifacts/cleanlink-web/dist/public"
+
+[build.environment]
+  PORT      = "3000"
+  BASE_PATH = "/"
+  NODE_VERSION = "20"
+
+# React Router / Wouter: send all routes to index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
