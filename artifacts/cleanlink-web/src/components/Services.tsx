@@ -6,16 +6,25 @@ import officeImg from '@/assets/office-cleaning.jpg';
 
 const services = [
   {
-    title: "Domestic Cleaning",
+    title: "Cleaning",
     image: domesticImg,
-    description: "Reliable, thorough cleaning for homes, apartments, and estates. Trust our verified professionals with your most personal space.",
-    features: ["Deep cleaning & dusting", "Laundry & ironing", "Kitchen & bathroom sanitation", "Move-in / Move-out cleans"]
+    description: "Reliable support for homes, offices, and properties that need professional care.",
+    features: [
+      "Household Cleaning",
+      "Office Cleaning",
+      "Pre and Post-Occupation",
+      "Laundry and Ironing"
+    ]
   },
   {
-    title: "Office Cleaning",
+    title: "Caregiving and In-home Care",
     image: officeImg,
-    description: "Maintain a professional, spotless workspace for your team and clients. Flexible scheduling outside of business hours.",
-    features: ["Desk & workstation sanitization", "Communal area upkeep", "Waste management", "Restroom maintenance"]
+    description: "Trusted in-home support for families and individuals.",
+    features: [
+      "Babysitting",
+      "Elder Care",
+      "Full-Time and Part-time domestic worker placements"
+    ]
   }
 ];
 
@@ -29,7 +38,7 @@ export default function Services() {
               Services tailored to you
             </h2>
             <p className="text-lg text-muted-foreground">
-              Whether it's a cozy flat in Umhlanga or a bustling office in Westville, our network of cleaners has the expertise to handle it.
+              Whether it's a home, office, or other property, our network of verified professionals has the expertise to help.
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ const steps = [
   {
     icon: <Search size={28} />,
     title: "Find your match",
-    description: "Browse verified cleaners in your local KZN area based on distance, ratings, and services offered."
+    description: "Browse verified cleaners in your area."
   },
   {
     icon: <CalendarCheck size={28} />,
@@ -35,10 +35,10 @@ export default function HowItWorks() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-serif text-white mb-4">
-            How CleanLink Works
+            How We Work
           </h2>
           <p className="text-lg text-white/60">
-            We've digitized the process of finding reliable help, making it simpler, safer, and entirely transparent.
+            A digitized process of finding a reliable domestic worker.
           </p>
         </div>
 
