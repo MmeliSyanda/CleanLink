@@ -36,7 +36,7 @@ export default function Testimonials() {
             Hear from our community
           </h2>
           <p className="text-lg text-muted-foreground">
-            We are building trust across KwaZulu-Natal, one spotless home at a time.
+            We are building trust across South Africa, one home at a time.
           </p>
         </div>
 

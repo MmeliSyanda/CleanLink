@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <img src={logoImg} alt="CleanLink" className="h-12 w-auto mb-6" />
             <p className="text-muted-foreground mb-6">
-              Formalizing the informal sector. Connecting households and businesses with trusted, verified cleaners in KZN.
+              Formalizing the informal sector. Connecting households and businesses with trusted, verified domestic workers across South Africa.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-secondary hover:bg-primary hover:text-white transition-colors">
@@ -31,7 +31,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Find a Cleaner</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Become a Cleaner</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">How it Works</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">How We Work</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Pricing</a></li>
             </ul>
           </div>
@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-muted-foreground">
                 <MapPin size={20} className="text-primary shrink-0 mt-0.5" />
-                <span>Durban, KwaZulu-Natal<br/>South Africa</span>
+                <span><br/>South Africa</span>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail size={20} className="text-primary shrink-0" />

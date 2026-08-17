@@ -17,7 +17,7 @@ export default function Navbar() {
         
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-foreground">
-          <a href="#how-it-works" className="hover:text-primary transition-colors">How it Works</a>
+          <a href="#how-it-works" className="hover:text-primary transition-colors">How We Work</a>
           <a href="#services" className="hover:text-primary transition-colors">Services</a>
           <a href="#trust" className="hover:text-primary transition-colors">Trust & Safety</a>
           <a href="#for-cleaners" className="hover:text-primary transition-colors">For Cleaners</a>
