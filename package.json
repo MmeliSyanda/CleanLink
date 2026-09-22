@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "dev": "pnpm --filter @workspace/cleanlink-web run dev",
+    "build:web": "pnpm --filter @workspace/cleanlink-web run build",
+    "serve:web": "pnpm --filter @workspace/cleanlink-web run serve",
     "preinstall": "node scripts/preinstall.mjs",
     "build": "pnpm run typecheck && pnpm -r --if-present run build",
     "typecheck:libs": "tsc --build",
