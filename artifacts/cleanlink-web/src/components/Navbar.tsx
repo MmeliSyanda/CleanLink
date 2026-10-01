@@ -23,10 +23,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" className="font-semibold text-secondary">Log In</Button>
-          <Button className="bg-primary text-primary-foreground font-semibold px-6 hover:bg-primary/90 shadow-sm rounded-full">
-            Book a Cleaner
-          </Button>
+          
         </div>
 
         {/* Mobile Menu Toggle */}

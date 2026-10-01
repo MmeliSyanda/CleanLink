@@ -17,7 +17,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-secondary font-semibold text-sm mb-6 border border-primary/20">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            Now launching in Gauteng and Durban
+            Now launching 
           </div>
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-serif leading-[1.1] text-secondary mb-6 tracking-tight">
@@ -29,14 +29,7 @@ export default function Hero() {
             Connect with background-checked, verified professional cleaners in your area. Secure bookings, fair wages, and total peace of mind.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="h-14 px-8 text-lg font-semibold rounded-full bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all">
-              Find a Cleaner
-            </Button>
-            <Button variant="outline" className="h-14 px-8 text-lg font-semibold rounded-full border-2 border-secondary text-secondary hover:bg-secondary/5">
-              Become a Cleaner
-            </Button>
-          </div>
+          
           
           <div className="mt-10 flex items-center gap-6">
             <div className="flex -space-x-3">

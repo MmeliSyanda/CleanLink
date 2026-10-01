@@ -55,11 +55,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail size={20} className="text-primary shrink-0" />
-                <a href="mailto:hello@cleanlink.co.za" className="hover:text-primary transition-colors">hello@cleanlink.co.za</a>
+                <a href="mailto:hello@cleanlink.co.za" className="hover:text-primary transition-colors">hellocleanlink.co.za</a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone size={20} className="text-primary shrink-0" />
-                <span>0800 CLEANLINK</span>
+                <span>076 996 9698 </span>
               </li>
             </ul>
           </div>
