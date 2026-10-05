@@ -5,19 +5,19 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     name: "Sarah Jenkins",
-    location: "Umhlanga Ridge",
+    location: "",
     text: "Finding a reliable cleaner used to be a nightmare of WhatsApp messages and cash withdrawals. CleanLink changed everything. My cleaner is amazing and paying digitally is so easy.",
     rating: 5
   },
   {
     name: "Sipho Ndlovu",
-    location: "Durban North",
+    location: "",
     text: "We use CleanLink for our small office. The background checks give us incredible peace of mind. Highly recommend their service.",
     rating: 5
   },
   {
     name: "Michelle Peters",
-    location: "Westville",
+    location: "",
     text: "The distance-based matching is genius. My cleaner lives just 10 minutes away, which means she never struggles with transport to get here.",
     rating: 5
   }

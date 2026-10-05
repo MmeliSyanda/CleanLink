@@ -49,9 +49,7 @@ export default function ForCleaners() {
               ))}
             </ul>
 
-            <Button className="h-14 px-8 text-lg font-semibold rounded-full bg-primary text-white hover:bg-primary/90 w-full sm:w-auto">
-              Start Earning
-            </Button>
+            
           </motion.div>
 
           <motion.div 
@@ -73,7 +71,7 @@ export default function ForCleaners() {
               <p className="text-xl font-serif font-medium text-white italic">
                 "CleanLink gave me the dignity of a verified profile. Now clients trust me before I even walk through the door."
               </p>
-              <p className="mt-4 text-primary font-semibold">— Thandiwe M., Durban</p>
+              <p className="mt-4 text-primary font-semibold">— Thandiwe M.</p>
             </div>
           </motion.div>
 

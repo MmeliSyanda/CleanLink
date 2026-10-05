@@ -49,13 +49,10 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-secondary mb-6">Contact</h4>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3 text-muted-foreground">
-                <MapPin size={20} className="text-primary shrink-0 mt-0.5" />
-                <span><br/>South Africa</span>
-              </li>
+              
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail size={20} className="text-primary shrink-0" />
-                <a href="mailto:hello@cleanlink.co.za" className="hover:text-primary transition-colors">hellocleanlink.co.za</a>
+                <a href="mailto:hello@cleanlink.co.za" className="hover:text-primary transition-colors">hello@cleanlink.co.za</a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone size={20} className="text-primary shrink-0" />

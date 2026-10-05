@@ -15,10 +15,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="z-10"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-secondary font-semibold text-sm mb-6 border border-primary/20">
-            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            Now launching 
-          </div>
+          
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-serif leading-[1.1] text-secondary mb-6 tracking-tight">
             A spotless home. <br />
