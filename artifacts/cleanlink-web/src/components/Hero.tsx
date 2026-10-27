@@ -26,7 +26,18 @@ export default function Hero() {
             Connect with background-checked, verified professional cleaners in your area. Secure bookings, fair wages, and total peace of mind.
           </p>
           
-          
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button asChild className="h-14 px-8 text-lg font-semibold rounded-full bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all">
+              <a href="#get-started" data-testid="link-hero-client-registration">
+              Find a Cleaner
+              </a>
+            </Button>
+            <Button asChild variant="outline" className="h-14 px-8 text-lg font-semibold rounded-full border-2 border-secondary text-secondary hover:bg-secondary/5">
+              <a href="#get-started" data-testid="link-hero-cleaner-registration">
+              Become a Cleaner
+              </a>
+            </Button>
+          </div>
           
           <div className="mt-10 flex items-center gap-6">
             <div className="flex -space-x-3">
@@ -44,7 +55,7 @@ export default function Hero() {
                 <Star size={16} fill="currentColor" />
                 <Star size={16} fill="currentColor" />
               </div>
-              <span className="text-muted-foreground">Loved by 500+ homes </span>
+              <span className="text-muted-foreground">Loved by 500+ homes in KZN</span>
             </div>
           </div>
         </motion.div>

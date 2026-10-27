@@ -3,21 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>CleanLink Website</title>
-    <meta name="description" content="CleanLink Website — built on Replit. Update this description to reflect the app." />
+    <title>CleanLink | Trusted Cleaning Services in KZN</title>
+    <meta name="description" content="Connect with trusted, verified cleaners for homes and businesses across KwaZulu-Natal." />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="CleanLink Website" />
-    <meta property="og:description" content="CleanLink Website — built on Replit. Update this description to reflect the app." />
+    <meta property="og:title" content="CleanLink | Trusted Cleaning Services in KZN" />
+    <meta property="og:description" content="Connect with trusted, verified cleaners for homes and businesses across KwaZulu-Natal." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="CleanLink Website" />
-    <meta name="twitter:description" content="CleanLink Website — built on Replit. Update this description to reflect the app." />
+    <meta name="twitter:title" content="CleanLink | Trusted Cleaning Services in KZN" />
+    <meta name="twitter:description" content="Connect with trusted, verified cleaners for homes and businesses across KwaZulu-Natal." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/cleanlink-favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Netlify scans built HTML at deploy time; React renders the visible form client-side. -->
+    <form name="cleanlink-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="cleanlink-registration" />
+      <input name="bot-field" />
+      <input name="user-type" />
+      <input name="full-name" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="city" />
+      <input name="province" />
+      <input name="service" />
+      <input name="property-type" />
+      <input name="preferred-time" />
+      <input name="experience" />
+      <input name="hourly-rate" />
+      <input name="availability" />
+      <textarea name="message"></textarea>
+      <input name="contact-consent" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

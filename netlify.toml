@@ -6,6 +6,7 @@
   PORT      = "3000"
   BASE_PATH = "/"
   NODE_VERSION = "20"
+  VITE_NETLIFY_FORMS = "enabled"
 
 # React Router / Wouter: send all routes to index.html
 [[redirects]]

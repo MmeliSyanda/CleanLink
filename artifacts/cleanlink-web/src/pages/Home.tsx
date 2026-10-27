@@ -6,6 +6,7 @@ import Services from '@/components/Services';
 import WhyCleanLink from '@/components/WhyCleanLink';
 import ForCleaners from '@/components/ForCleaners';
 import Testimonials from '@/components/Testimonials';
+import RegistrationForm from '@/components/RegistrationForm';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Services />
       <WhyCleanLink />
       <ForCleaners />
+      <RegistrationForm />
       <Testimonials />
       <Footer />
     </main>

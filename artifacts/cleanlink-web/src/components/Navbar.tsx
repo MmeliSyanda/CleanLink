@@ -1,8 +1,9 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
+
 import logoImg from '@assets/WhatsApp_Image_2026-07-28_at_13.43.09_1785239013382.jpeg';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,14 +17,18 @@ export default function Navbar() {
         
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-foreground">
-          <a href="#how-it-works" className="hover:text-primary transition-colors">How We Work</a>
+          <a href="#how-it-works" className="hover:text-primary transition-colors">How it Works</a>
           <a href="#services" className="hover:text-primary transition-colors">Services</a>
           <a href="#trust" className="hover:text-primary transition-colors">Trust & Safety</a>
           <a href="#for-cleaners" className="hover:text-primary transition-colors">For Cleaners</a>
+          
         </div>
 
         <div className="hidden md:flex items-center gap-4">
           
+          <a href="#get-started" className="rounded-full bg-primary px-6 py-3 font-semibold text-primary-foreground shadow-sm transition hover:bg-primary/90" data-testid="link-navbar-get-started">
+            Get Started
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -42,9 +47,10 @@ export default function Navbar() {
           <a href="#services" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>Services</a>
           <a href="#trust" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>Trust & Safety</a>
           <a href="#for-cleaners" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>For Cleaners</a>
+          <Link href="/prototype" className="text-foreground font-medium py-2" onClick={() => setIsMenuOpen(false)}>View Prototype</Link>
           <div className="h-px bg-gray-100 my-2" />
           <Button variant="outline" className="w-full font-semibold border-secondary text-secondary">Log In</Button>
-          <Button className="w-full bg-primary text-primary-foreground font-semibold">Book a Cleaner</Button>
+           <a href="#get-started" className="w-full rounded-full bg-primary px-5 py-3 text-center font-semibold text-primary-foreground" onClick={() => setIsMenuOpen(false)} data-testid="link-mobile-get-started">Get Started</a>
         </div>
       )}
     </nav>
